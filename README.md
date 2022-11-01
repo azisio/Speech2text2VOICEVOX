@@ -33,11 +33,11 @@ WAVファイルを再生（デバイス指定して）
 入力/出力デバイスIDは環境依存  
 未指定の場合はWindowsの規定のデバイスが使用される
 
-speech_to_text.py 14行目
+speech_to_voicevox.py 14行目
 ```
 mic  = sr.Microphone(X)
 ```
-speech_to_text.py 36行目
+speech_to_voicevox.py 36行目
 ```
 sd.default.device = X
 ```
